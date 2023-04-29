@@ -1,0 +1,19 @@
+*::after,
+*::before,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.link--logo {
+  font-weight: 900;
+}
