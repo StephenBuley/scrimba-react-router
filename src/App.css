@@ -12,8 +12,47 @@ html {
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  background-color: #fff7ed;
+}
+
+body {
+  background-color: #1c1c1c;
+  margin: 0;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  margin: 200px auto;
+  width: 50%;
+  max-width: 573px;
+}
+
+.link {
+  text-decoration: none;
+  color: #4d4d4d;
 }
 
 .link--logo {
   font-weight: 900;
+  color: black;
+  font-size: 1.55rem;
+  padding: 2.25rem 1.55rem;
+}
+
+.header--nav {
+  padding: 2.25rem 1.55rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer {
+  background-color: #252525;
+  color: #aaaaaa;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 1.5rem;
 }
