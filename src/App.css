@@ -56,3 +56,20 @@ body {
   font-size: 0.875rem;
   padding: 1.5rem;
 }
+
+.section {
+  background-color: rgba(0, 0, 0, 100);
+  opacity: 0.46;
+  background-image: url(../assets/background-image-1.png);
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 1.55rem;
+}
+
+.section--header {
+  opacity: 1;
+}
+
+.section--text {
+  opacity: 1;
+}
